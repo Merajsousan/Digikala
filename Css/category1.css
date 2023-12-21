@@ -1,0 +1,153 @@
+div.category_1{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+div.category_1>a{
+    display: inline-block;
+    width: 86px;
+    height: 86px;
+    border-radius: 43px;
+    position: absolute;
+    top: 35px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+div.category_1>a>span{
+    width: 150px;
+    display: block;
+    position: absolute;
+}
+
+div.category_1>a:nth-last-of-type(1){
+    right: 160px;
+}
+
+div.category_1>a:nth-last-of-type(1)>span{
+    right: 32px;
+    bottom: -45px;
+}
+
+div.category_1>a:nth-last-of-type(2){
+    right: 345px;
+}
+
+div.category_1>a:nth-last-of-type(2)>span{
+    right: 15px;
+    bottom: -45px;
+}
+
+div.category_1>a:nth-last-of-type(3){
+    right: 530px;
+}
+
+div.category_1>a:nth-last-of-type(3)>span{
+    right: 8px;
+    bottom: -45px;
+}
+
+div.category_1>a:nth-last-of-type(4){
+    right: 715px;
+}
+
+div.category_1>a:nth-last-of-type(4)>span{
+    right: 20px;
+    bottom: -45px;
+}
+
+div.category_1>a:nth-last-of-type(5){
+    right: 900px;
+}
+
+div.category_1>a:nth-last-of-type(5)>span{
+    right: -1px;
+    bottom: -45px;
+}
+
+div.category_1>a:nth-last-of-type(6){
+    right: 1085px;
+}
+
+div.category_1>a:nth-last-of-type(6)>span{
+    right: -12px;
+    bottom: -45px;
+}
+
+div.category_1>a:nth-last-of-type(7){
+    right: 1270px;
+}
+
+div.category_1>a:nth-last-of-type(7)>span{
+    right: -18px;
+    bottom: -45px;
+}
+
+div.category_1>a:nth-last-of-type(8){
+    right: 252px;
+    top: 205px;
+}
+
+div.category_1>a:nth-last-of-type(8)>span{
+    right: 8px;
+    bottom: -45px;
+}
+
+div.category_1>a:nth-last-of-type(9){
+    right: 437px;
+    top: 205px;
+}
+
+div.category_1>a:nth-last-of-type(9)>span{
+    right: 20px;
+    bottom: -45px;
+}
+
+div.category_1>a:nth-last-of-type(10){
+    right: 622px;
+    top: 205px;
+}
+
+div.category_1>a:nth-last-of-type(10)>span{
+    right: -4px;
+    bottom: -45px;
+}
+
+div.category_1>a:nth-last-of-type(11){
+    right: 807px;
+    top: 205px;
+}
+
+div.category_1>a:nth-last-of-type(11)>span{
+    right: -8px;
+    bottom: -45px;
+}
+
+div.category_1>a:nth-last-of-type(12){
+    right: 992px;
+    top: 205px;
+}
+
+div.category_1>a:nth-last-of-type(12)>span{
+    right: -9px;
+    bottom: -45px;
+}
+
+div.category_1>a:nth-last-of-type(13){
+    right: 1177px;
+    top: 205px;
+}
+
+div.category_1>a:nth-last-of-type(13)>span{
+    right: 22px;
+    bottom: -45px;
+}
+
+div.category_1>a>img{
+    width: 115%;
+    height: 115%;
+}

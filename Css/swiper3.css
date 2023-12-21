@@ -1,0 +1,111 @@
+div.swiper_3{
+    width: 100%;
+    height: 240px;
+    position: relative;
+}
+
+div.swiper_3>div.frame{
+    width: 87%;
+    height: 230px;
+    border-radius: 12px;
+    border: 1px #ceced5a3 solid;
+    position: absolute;
+    right:calc(50% - 87%/2);
+}
+
+div.swiper_3>div.frame>p{
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 32px;    
+    right: calc(50% - 100px);
+}
+
+div.swiper_3>div.frame>p>svg{
+    position: absolute;
+    right: -32px;
+    top: 0px;
+}
+
+div.swiper_3>div.frame>div.swiperframe{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 4px;
+}
+
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+
+div.swiper_3>div.frame>div.swiperframe>div.mySwiper_4>div.swiper-wrapper>.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc((100%)  / 9) !important;
+    height: calc((170%) / 2) !important;
+    border-left: 2px rgba(206, 206, 213, 0.199) solid;
+}
+
+div.swiper_3>div.frame>div.swiperframe>div.mySwiper_4>div.swiper-wrapper>.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.swiper_3>div.frame>div.swiperframe>div.mySwiper_4>div.swiper-wrapper>.swiper-slide>img{
+    width: 110px;
+    height: 115px;
+}
+
+div.swiper_3>div.frame>div.swiperframe>div.mySwiper_4>div.swiper-wrapper>.swiper-slide:nth-of-type(4)>img{
+    width: 110px;
+    height: 30px;
+}
+
+
+div.swiper_3>div.frame>div.swiperframe>div.mySwiper_4>div.swiper-wrapper>.swiper-slide:nth-of-type(5)>img{
+    width: 110px;
+    height: 100px;
+}
+
+div.swiper_3>div.frame>div.swiperframe>div.mySwiper_4>div.swiper-wrapper>.swiper-slide:nth-of-type(8)>img{
+    width: 115px;
+    height: 35px;
+}
+
+
+div.swiper_3>div.frame>div.swiperframe>div.mySwiper_4>div.swiper-wrapper>.swiper-slide:nth-of-type(10)>img{
+    width: 110px;
+    height: 30px;
+}
+
+
+div.swiper_3>div.frame>div.swiperframe>div.mySwiper_4>div.swiper-wrapper>.swiper-slide:nth-of-type(11)>img{
+    width: 110px;
+    height: 35px;
+}
+
+
+div.swiper_3>div.frame>div.swiperframe>div.mySwiper_4>div.swiper-wrapper>.swiper-slide:nth-of-type(15)>img{
+    width: 110px;
+    height: 60px;
+}
+
+
+div.swiper_3>div.frame>div.swiperframe>div.mySwiper_4>div.swiper-wrapper>.swiper-slide:nth-of-type(17)>img{
+    width: 110px;
+    height: 110px;
+}
+
+
+div.swiper_3>div.frame>div.swiperframe>div.mySwiper_4>div.swiper-wrapper>.swiper-slide:nth-of-type(21)>img{
+    width: 100px;
+    height: 80px;
+}

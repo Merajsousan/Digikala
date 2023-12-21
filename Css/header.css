@@ -1,0 +1,77 @@
+div.header{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    top: 60px;
+    display: inline-block;
+    z-index: 100;
+}
+
+div.header>#logo{
+   position: absolute;
+   right: 15px;
+   top: 20px;
+   
+}
+
+div.header>input{
+    width: 39%;
+    height: 44px;
+    background-color: #F0F0F1;
+    position: absolute;
+    right: 150px;
+    top: 12px;
+    border-radius: 9px;
+    border-style: none;
+    border-color: #F0F0F1 ;
+    font-size: 12px;
+    padding-right: 60px;
+    padding-bottom: 4px;
+    outline: unset;
+}
+
+div.header>#search{
+    position: absolute;
+    right:170px;
+    top: 22px;
+}
+
+div.header>#register{
+    width: 135px;
+    height: 40px;
+    border-radius: 9px;
+    border: 1px solid #E0E0E2 ;
+    position:absolute;
+    left: 80px;
+    top: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+div.header>#register>span.s1{
+    position: absolute;
+    left: 16px;
+    top: 11.5px;
+    font-weight:600;
+    font-size: 11px;
+}
+
+div.header>#register>span.s2{
+    position: absolute;
+    right: 16px;
+    top: 7.5px;
+}
+
+div.header>span.fa-thin{
+    position: absolute;
+    left: 66px;
+    top: 35px;
+}
+
+div.header>#buy{
+    position: absolute;
+    left: 24px;
+    top: 22px;
+}

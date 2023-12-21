@@ -1,0 +1,24 @@
+div.advertisement_5{
+    width: 1400px;
+    height: 270px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+div.advertisement_5>a{
+    display: inline-block;
+    width: 320px;
+    height: 90%;
+    margin-right: 5px ;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 16.5px;
+}
+
+div.advertisement_5>a>img{
+    display: block;
+    width: inherit;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}

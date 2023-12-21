@@ -1,0 +1,56 @@
+div.advertisement_2{
+    width: 100%;
+    height: 142px;
+    position: relative;
+}
+
+div.advertisement_2>div.c1{
+    width: 82%;
+    height: inherit;
+    position: absolute;
+    right: 142px;
+}
+
+div.advertisement_2>div.c1>div.circles_1{
+    width: 84px;
+    height: 84px;
+    border-radius: 42px;
+    display: inline-block;
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-top: 16px;
+    border: solid #ED1B34 2.5px;
+}
+
+div.advertisement_2>div.c1>div.circles_1>a{
+    width: 110%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+}
+
+div.advertisement_2>div.c1>div.circles_1>a>span{
+    position: absolute;
+    bottom: -25px;
+    right: 4px;
+}
+
+div.advertisement_2>div.c1>div.circles_1:nth-of-type(2)>a>span,div.advertisement_2>div.c1>div.circles_1:nth-of-type(5)>a>span,div.advertisement_2>div.c1>div.circles_1:nth-of-type(6)>a>span,div.advertisement_2>div.c1>div.circles_1:nth-of-type(7)>a>span{
+    right: 7px;
+}
+
+div.advertisement_2>div.c1>div.circles_1:nth-of-type(3)>a>span{
+    right: 1px;
+}
+
+div.advertisement_2>div.c1>div.circles_1>a>img{
+    width: 79px;
+    height: 79px;
+    border-radius: 39.5px;
+    padding: 3.5px;
+    object-fit: cover;
+}

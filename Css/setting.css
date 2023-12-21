@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: digikala;
+}
+ 
+@font-face {
+    font-family: digikala;
+    src: url(/Fonts/AIranianSans.eot);
+    src: url(/Fonts/AIranianSans.ttf);
+    src: url(/Fonts/AIranianSans.woff);
+    src: url(/Fonts/AIranianSans.woff2);
+}
+
+div.dynamicparts{
+    position: relative;
+    top: 130px;
+}
+ 
+hr{
+    color: #42475092;
+    opacity: 0.7;
+}
+
+/* hr.second{
+
+} */
+
+hr.third,hr.fourth{
+    width: 97%;
+    margin: 15px auto;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #c0c2c5;
+    border-radius: 8px;
+}

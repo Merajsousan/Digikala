@@ -1,0 +1,187 @@
+div.specialservice{
+    width: 100%;
+    height: 435px;
+    position: relative;
+}
+
+div.specialservice>div.frame{
+    width: 87%;
+    height: 88.8%;
+    background-color: #941B80;
+    border-radius: 16px;
+    position: absolute;
+    left: calc(50% - 87%/2);
+    top: 35px;
+}
+
+div.specialservice>div.frame>a:nth-of-type(1){
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+div.specialservice>div.frame>p{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 85px;
+    right: 40px;
+}
+
+div.specialservice>div.frame>a:nth-of-type(2){
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 105px;
+    height: 35px;
+    font-size: 12.5px;
+    border-radius: 8px;
+    border: 1px white solid;
+    position: absolute;
+    right: 40px;
+    top: 120px;
+    z-index: 99;
+}
+
+div.specialservice>div.frame>a:nth-of-type(2)>span{
+    position: absolute;
+    top: 8.5px;
+    right: 15px;
+}
+
+div.specialservice>div.frame>a:nth-of-type(2)>svg{
+    fill: white;
+    position: absolute;
+    left: 15px;
+    top: calc(50% - 12px);
+}
+
+div.specialservice>div.frame>img.digiplus{
+    width: 315px;
+    height: 230px;
+    position: absolute;
+    bottom: 40px;
+    right: 90px;
+    object-fit: fill;
+}
+
+div.specialservice>div.frame>div.innerframe{
+   width: 855px;
+   height: 355px;
+   background-color: white;
+   border-radius: 8px;
+   position: absolute;
+   left: 15px;
+   top: 15px;
+}
+
+div.specialservice>div.frame>div.innerframe>p{
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    top: 25px;
+    right: 40px;
+    color: black;
+}
+
+div.specialservice>div.frame>div.innerframe>p>span{
+    padding-right: 7px;
+}
+
+div.specialservice>div.frame>div.innerframe>p>svg{
+    position: absolute;
+    top: calc(50% - 12px);
+    right: -25px;
+}
+
+div.specialservice>div.frame>div.innerframe>a.pictures{
+    display: inline-block;
+    width: 110px;
+    height: 120px;
+    position: absolute;
+    text-align: center;
+    line-height: 120px;
+}
+
+div.specialservice>div.frame>div.innerframe>a.pictures:nth-last-of-type(1){
+    right: 20px;
+    top: 65px;
+}
+
+div.specialservice>div.frame>div.innerframe>a.pictures:nth-last-of-type(2){
+    right: 160px;
+    top: 65px;
+}
+
+div.specialservice>div.frame>div.innerframe>a.pictures:nth-last-of-type(3){
+    right: 300px;
+    top: 65px;
+}
+
+div.specialservice>div.frame>div.innerframe>a.pictures:nth-last-of-type(4){
+    right: 440px;
+    top: 65px;
+}
+
+div.specialservice>div.frame>div.innerframe>a.pictures:nth-last-of-type(5){
+    right: 580px;
+    top: 65px;
+}
+
+div.specialservice>div.frame>div.innerframe>a.pictures:nth-last-of-type(6){
+    right: 720px;
+    top: 65px;
+}
+
+div.specialservice>div.frame>div.innerframe>a.pictures:nth-last-of-type(7){
+    right: 20px;
+    top: 205px;
+}
+
+div.specialservice>div.frame>div.innerframe>a.pictures:nth-last-of-type(8){
+    right: 160px;
+    top: 205px;
+}
+
+div.specialservice>div.frame>div.innerframe>a.pictures:nth-last-of-type(9){
+    right: 300px;
+    top: 205px;
+}
+
+div.specialservice>div.frame>div.innerframe>a.pictures:nth-last-of-type(10){
+    right: 440px;
+    top: 205px;
+}
+
+div.specialservice>div.frame>div.innerframe>a.pictures:nth-last-of-type(11){
+    right: 580px;
+    top: 205px;
+}
+
+div.specialservice>div.frame>div.innerframe>a.pictures:nth-last-of-type(12){
+    right: 720px;
+    top: 205px;
+}
+
+div.specialservice>div.frame>div.innerframe>a>img{
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+}
+
+div.specialservice>div.frame>div.innerframe>a.survey{
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #941b80f2;
+    position: absolute;
+    top: 25px;
+    left: 35px;
+}
+
+div.specialservice>div.frame>div.innerframe>a.survey>svg{
+    position: absolute;
+    top: calc(50% - 11px);
+    left: -20px;
+}

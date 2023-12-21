@@ -1,0 +1,99 @@
+div.advertisement_3{
+    width: 100%;
+    height: 135px;
+    position: relative;
+} 
+
+div.advertisement_3>div.c2{
+    width: 92%;
+    height: inherit;
+    position: absolute;
+    right: 108px;
+}
+
+div.advertisement_3>div.c2>div.circles_2{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    display: inline-block;
+    margin-right: 52px;
+    margin-left: 52px;
+    margin-top: 28px;
+    background-color: white;
+    vertical-align: top;
+}
+
+div.advertisement_3>div.c2>div.circles_2:nth-of-type(8){
+    background-color: #F0F0F1;
+}
+
+div.advertisement_3>div.c2>div.shapes{
+    width: 52px;
+    height: 54px;
+    border-radius: 18px;
+    display: inline-block;
+    margin-right: 52px;
+    margin-left: 52px;
+    margin-top: 28px;
+    vertical-align: top;
+}
+
+div.advertisement_3>div.c2>div.circles_2>a,div.advertisement_3>div.c2>div.shapes>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 10.8px;
+    font-weight: bold;
+    position: relative;
+}
+
+div.advertisement_3>div.c2>div.circles_2>a>span{
+    width: 165%;
+    position: absolute;
+    bottom: -22px;
+    right: 0px;
+}
+
+div.advertisement_3>div.c2>div.circles_2:nth-of-type(5)>a>span{
+    right: -18px;
+}
+
+div.advertisement_3>div.c2>div.circles_2:nth-of-type(7)>a>span{
+    right: 4.5px;
+}
+
+div.advertisement_3>div.c2>div.circles_2:nth-of-type(8)>a>span{
+    right: 15px;
+}
+
+div.advertisement_3>div.c2>div.shapes>a>span{
+    width: 135%;
+    position: absolute;
+    bottom: -22px;
+    right: -2px;
+}
+
+div.advertisement_3>div.c2>div.circles_2>a>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 28px;
+    object-fit: cover;
+}
+
+div.advertisement_3>div.c2>div.circles_2>a>svg{
+    width: 35px;
+    height: 35px;
+    fill: #A1A3A8;
+    position: absolute;
+    top: 16px;
+    right: 5px;
+}
+
+div.advertisement_3>div.c2>div.shapes>a>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    object-fit: cover;
+}

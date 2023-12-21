@@ -1,0 +1,26 @@
+div.swiper_1{
+    width: 100%;
+    height: 400px;
+    margin-top: 12px;
+}
+
+div.swiper_1>.swiper{
+    width: 100%;
+    height: 100%;
+}
+
+div.swiper_1>.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

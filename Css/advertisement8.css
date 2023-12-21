@@ -1,0 +1,25 @@
+div.advertisement_8{
+    width: 100%;
+    height: 170px;
+    position: relative;
+}
+
+div.advertisement_8>div.frame{
+    width: 87%;
+    height: 165px;
+    margin: 2px auto;
+    border-radius: 16px;
+}
+
+div.advertisement_8>div.frame>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+div.advertisement_8>div.frame>a>img{
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    border-radius: 16px;
+}
